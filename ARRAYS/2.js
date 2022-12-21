@@ -62,9 +62,20 @@ users.forEach((ya) => {
     }
 })
 console.log(youngAdmins);
+
 // 2d. Sort the array by user's names alphabetically
 users.sort((a, b) => a.name.localeCompare(b.name));
 console.log (users);
+//reverse it without using localCompare()
+
+users.sort((a,b) => a.name.toLowerCase < b.name.toLowerCase ? 1:-1 )
+console.log("no localeCompare, reverse the alpha sort")
+console.log(users)
+//alpha sort, case sensitive 
+users.sort((a,b) => a.name > b.name ? 1:-1 );
+console.log("alpha sort case sensitive")
+console.log(users)
 // 2e. sort the array by users age, oldest to youngest
 users.sort((a,b) => b.age - a.age)
+console.log("oldest to youngest")
 console.log(users)
