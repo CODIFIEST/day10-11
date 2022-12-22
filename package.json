@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CODIFIEST/day10-11/issues"
   },
-  "homepage": "https://github.com/CODIFIEST/day10-11#readme"
+  "homepage": "https://github.com/CODIFIEST/day10-11#readme",
+  "dependencies": {
+    "prompt-promise": "^1.0.3"
+  }
 }
