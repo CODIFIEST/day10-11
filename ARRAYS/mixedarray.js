@@ -3,6 +3,8 @@
 //(like . filters, .sort, .includes, .map, .forEach, etc), do the following
 //(DO NOT USE FOR LOOPS) and log them out to the console.
 //
+
+
 // A. Create a new array consisting only of the strings in the array, then sort
 // the array alphabetically ascending A-Z
 let pillars = [
